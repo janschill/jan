@@ -1,17 +1,17 @@
-site: Sidey
-url: #yoururl
-title: Sidey
-description: Simple and minimalistic jekyll blogging theme.
+site: Jan's Blog
+url: https://janschill.de
+title: Jan's Blog
+description: My personal blog about technology and life
 twitter:
-  username: #yourusername
+  username: janschill
   card: summary
-  creator: #yourusername
+  creator: janschill
 author:
-  twitter: #yourusername
-  name: #yourusername
+  twitter: janschill
+  name: Jan Schill
   avatar:
-  email: #youremail
-  url: #yoururl
+  email: your.email@example.com
+  url: https://janschill.github.io/jan
 permalink: pretty
 
 baseurl: ""

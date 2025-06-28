@@ -3,26 +3,21 @@ layout: page
 title: About
 ---
 
-Sidey is a simple and minimalistic jekyll blogging theme.
+Hi, I'm Jan! Welcome to my personal blog where I share my thoughts on technology, programming, and life.
 
-### Features
+### About Me
 
-- Responsive design
-- Inline CSS
-- Anchor headings
-- Search
-- Tags & tag pages
-- Security headers (for Netlify hosting)
-- 404 page
-- Compressed CSS and HTML
-- 100/100 score on Lighthouse, Page Speed Insights & Webpagetest
-- Robots.txt
-- Atom & Json feeds
-- Sass
-- Seo optimized (Twitter cards, Facebook Open Graph, Schema.org)
-- Ultra fast (Only ~5kb of CSS)
-- Sidebar navigation
+I'm a software developer passionate about web technologies, open source, and creating meaningful digital experiences. This blog is where I document my learning journey, share technical insights, and explore ideas that interest me.
 
-### Screenshot
+### What You'll Find Here
 
-![Screenshot](screenshot.png)
+- **Technical tutorials** - Practical guides and how-tos
+- **Project updates** - Documentation of my side projects
+- **Tech thoughts** - My perspective on industry trends and tools
+- **Personal reflections** - Occasional thoughts on life and learning
+
+### Get in Touch
+
+Feel free to connect with me on [Twitter](https://twitter.com/janschill) or send me an email at your.email@example.com.
+
+Thanks for visiting!
