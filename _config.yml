@@ -10,7 +10,7 @@ author:
   twitter: janschill
   name: Jan Schill
   avatar:
-  email: your.email@example.com
+  email: blog@janschill.de
   url: https://janschill.de
 permalink: pretty
 
@@ -20,7 +20,7 @@ highlighter: none
 
 exclude:
   - .jekyll-cache
-  
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
@@ -32,7 +32,7 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-sitemap  
+  - jekyll-sitemap
 
 collections:
   pages:
@@ -41,7 +41,7 @@ collections:
   posts:
     output: true
     permalink: /:year/:month/:day/:slug
-  
+
 defaults:
   -
     scope:
