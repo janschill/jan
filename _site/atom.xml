@@ -4,11 +4,11 @@
  <title>Jan's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2025-06-28T22:10:22+02:00</updated>
+ <updated>2025-06-29T16:08:15+02:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Jan Schill</name>
-   <email>your.email@example.com</email>
+   <email>blog@janschill.de</email>
  </author>
 
  
