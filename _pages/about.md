@@ -11,8 +11,7 @@ I'm a software developer passionate about web technologies, open source, and cre
 
 ### Experience
 
-**Software Engineer at [Glint Solar](https://glintsolar.com/)** (2025 - Present)<br>
-Improving React applications for internal GIS tooling, support for fill-patterns in layers and Map Export with reprojection.
+**Senior Software Engineer at [Vipps MobilePay](https://vippsmobilepay.com/)** (2025 - Present)<br>
 
 **Technical Lead & Senior Software Engineer at [Zendesk](https://www.zendesk.com/)** (2019 - 2025)<br>
 Led data protection engineering teams and architected BYOK encryption solutions. Built CI/CD pipelines, integrated backend services with Ruby/Rails/gRPC, and developed React UIs. Specialized in large-scale Ruby applications serving millions of users.
