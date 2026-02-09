@@ -3,6 +3,7 @@ backend:
   repo: janschill/jan
   branch: master
   base_url: https://sveltia-cms-auth.janschill.workers.dev
+  use_graphql: true
 
 media_folder: "assets/images"
 public_folder: "/assets/images"
