@@ -21,3 +21,5 @@ I told it to go ahead while I enabled GitHub Pages and created a new subdomain i
 After playing a few rounds and not being fully pleased with how it looked, I gave it a few more prompts, which unsurprisingly broke things here and there, but eventually I had a game I was really pleased with.
 
 We have been playing it every morning with coffee now. It is not perfect, and I have a growing list of things I want to tweak, but that is part of the fun. If you want to try it yourself, you can find it at [bird-city.janschill.de](https://bird-city.janschill.de).
+
+![Bird City Game](/assets/images/birdcity.png)
