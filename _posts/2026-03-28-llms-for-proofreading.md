@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "LLMs for Proofreading"
-description: ""
+title: LLMs for Proofreading
+description: How I use a custom LLM proofreader skill to catch mistakes in my writing without losing my voice — a non-native blogger's practical workflow.
 date: 2026-03-28
-tags: []
+tags:
+  - ai
+  - writing
+  - claude
 ---
 My personal hurdles in writing are: getting started on a blank page and struggling with my non-native language.
 For the first struggle, I believe forcing yourself to write down one sentence often results in getting the ball rolling. Just let the thoughts flow and write them down as they come. You can clean up afterwards. But cleaning up afterwards is where the second hurdle for me just makes blogging not enjoyable and I stop. Tools like red or blue, squiggly lines under incorrect spelling or grammar mistakes have existed forever *Grammarly* has also helped us non-native or even native writers for a long time.

@@ -1,9 +1,13 @@
 ---
 layout: post
-title: "Auto-Focus"
-description: ""
+title: Auto-Focus
+description: A macOS menu bar app that detects developer flow states and silences notifications automatically—built with Go and AI assistance.
 date: 2026-03-28
-tags: []
+tags:
+  - go
+  - macos
+  - productivity
+  - ai
 ---
 My first AI-assisted project was [Auto-Focus](https://auto-focus.app). A while ago, I read an interesting article from Meta on an [internal research project](https://research.facebook.com/publications/workgraph-personal-focus-vs-interruption-for-engineers-at-meta/) where they discovered how asynchronous communication tools tend to break *the flow* of engineers and how difficult it is for individuals to get back into it, after a seemingly innocent "Hey, do you have a moment?" message.
 

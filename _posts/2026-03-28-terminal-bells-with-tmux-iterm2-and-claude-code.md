@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "Terminal Bells with tmux, iTerm2, and Claude Code"
-description: ""
+title: Terminal Bells with tmux, iTerm2, and Claude Code
+description: Fix tmux swallowing bell characters and get iTerm2 notifications from Claude Code sessions using tmux passthrough and a Claude Stop hook.
 date: 2026-03-28
-tags: []
+tags:
+  - claude
+  - terminal
+  - tmux
 ---
 Being a 10x engineer these days requires ten parallel Claude Code sessions. To not neglect any of them, Anthropic recommends to [turn on notifications in your Terminal](https://code.claude.com/docs/en/terminal-config#notification-setup). This didn't really work for me because tmux, for some reason, swallowed the bell character `'\a'` and did not forward it to my outer Terminal, iTerm2, via `/dev/tty`. Additionally, I wanted a visual indicator in the tmux window when it wasn't focussed.
 

@@ -1,9 +1,12 @@
 ---
 layout: post
-title: "Obsidian Notes and Blog Posts"
-description: ""
+title: Obsidian Notes and Blog Posts
+description: How I use Obsidian with Templater and a shell script to draft and publish Jekyll blog posts without leaving my editor.
 date: 2026-03-28
-tags: []
+tags:
+  - blogging
+  - obsidian
+  - workflow
 ---
 I've been wanting to blog more for a long time and made multiple attempts at doing so, but could never find a flow that would work well for me. This is another try at it.
 
