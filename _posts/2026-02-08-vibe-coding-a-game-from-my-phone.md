@@ -1,10 +1,13 @@
 ---
 layout: post
 title: Vibe Coding a Game from my Phone
-description: Using "Claude Code" on my phone to build a Wordle-like game.
+description: Using Claude Code on my phone to build a Wordle-like game.
 date: 2026-02-09
 tags:
-  - "#claude"
+  - claude
+  - ai
+  - game-development
+draft: false
 ---
 Last Sunday I had a few hours to myself but not my laptop at hand. Sitting on the couch, I opened the Claude iOS app and noticed the Code section, which lets you chat to Anthropic's models in the context of a GitHub repository. I had been wanting to build something like this for a while.
 
@@ -22,4 +25,4 @@ After playing a few rounds and not being fully pleased with how it looked, I gav
 
 We have been playing it every day and sharing our scores over Signal. The game is not perfect, and I have a growing list of things I want to tweak, but that is part of the fun. If you want to try it yourself, you can find it at [bird-city.janschill.de](https://bird-city.janschill.de).
 
-![Bird City Game](/assets/images/birdcity.png)
+![Bird City Game](/assets/images/2026/birdcity.png)
