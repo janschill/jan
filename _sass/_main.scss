@@ -233,32 +233,16 @@ p {
   color: var(--text);
   background-color: var(--accent);
   text-decoration: none;
-  padding: 0 2px;
-  margin: 0 -2px;
 }
 
 /* Post Meta */
 .post .meta {
   display: block;
-  margin-top: 40px;
-  padding-top: 20px;
-  border-top: 3px solid var(--border);
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid var(--border);
   font-size: 14px;
   color: var(--gray-mid);
-}
-
-.post .meta a {
-  color: var(--text);
-  font-weight: 600;
-  background-color: var(--gray-light);
-  padding: 4px 10px;
-  text-decoration: none;
-  border: 2px solid var(--border);
-  margin-left: 4px;
-}
-
-.post .meta a:hover {
-  background-color: var(--accent);
 }
 
 /* Code */
@@ -535,11 +519,6 @@ hr {
   .post h3 {
     font-size: 22px;
     margin-top: 36px;
-  }
-
-  .post .meta {
-    margin-top: 48px;
-    padding-top: 24px;
   }
 
   hr {
