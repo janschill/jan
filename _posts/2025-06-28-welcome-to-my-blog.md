@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "Welcome to My Blog"
-description: "An introduction to my new blog and what you can expect to find here"
+title: Welcome to my Blog
+description: An introduction to my new blog and what you can expect to find here
 date: 2025-06-28
-tags: [personal, blogging]
+tags:
+  - personal
+  - blogging
+draft: false
 ---
-
 Hello and welcome to my new blog! I'm excited to finally have a place to share my thoughts, experiences, and learnings with the world.
 
 ## Why I'm Starting This Blog
