@@ -8,6 +8,7 @@ tags:
   - ai
   - claude
   - kubernetes
+draft: false
 ---
 As developers, we have a tendency to automate everything possible. Historically, writing automation scripts would prove this xkcd right:
 
@@ -66,9 +67,10 @@ $KC run "tmp-curl-$$" --rm -it --restart=Never \
 
 
 ## Checking the latest git commit deployed
-| Problem           | Get context of git SHA from K8s deployed image           |
-| ----------------- | -------------------------------------------------------- |
-| Placement in xkcd | weekly and it would take me around five minutes.         |
+
+| Problem           | Get context of git SHA from K8s deployed image                                |
+| ----------------- | ----------------------------------------------------------------------------- |
+| Placement in xkcd | weekly and it would take me around five minutes.                              |
 | Solution          | Resolve the deployed image's SHA back to its commit and PR, locally or via gh |
 
 The useful bit is that it resolves a deployed image tag back to its commit *and* its PR in one step, even when the image was built from a different repo than the one I'm in.
