@@ -1,25 +1,16 @@
-# Sidey
+# jan
 
-Sidey is a simple and minimalistic jekyll blogging theme.
+Personal blog at [janschill.de](https://janschill.de), built with Jekyll.
 
-### Features
+Based on the [Sidey](https://github.com/ronv/sidey) theme.
 
-- Responsive design
-- Inline CSS
-- Anchor headings
-- Search
-- Tags & tag pages
-- Security headers (for Netlify hosting)
-- 404 page
-- Compressed CSS and HTML
-- 100/100 score on Lighthouse, Page Speed Insights & Webpagetest
-- Robots.txt
-- Atom & Json feeds
-- Sass
-- Seo optimized (Twitter cards, Facebook Open Graph, Schema.org)
-- Ultra fast (Only ~5kb of CSS)
-- Sidebar navigation
+## Local development
 
-### Screenshot
+```sh
+bundle install
+bundle exec jekyll serve
+```
 
-![Screenshot](screenshot.png)
+## Deployment
+
+Pushes to `master` deploy automatically via GitHub Pages.

@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: janschill/jan
-  branch: master
+  branch: main
   base_url: https://sveltia-cms-auth.janschill.workers.dev
   use_graphql: true
 

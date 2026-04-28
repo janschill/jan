@@ -1,6 +1,7 @@
 MIT License
 
-Copyright (c) 2020 Ronalds Vilciņš
+Copyright (c) 2020 Ronalds Vilciņš (original Sidey theme)
+Copyright (c) 2024 Jan Schill (modifications)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

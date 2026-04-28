@@ -54,5 +54,3 @@ Check out [my GitHub](https://github.com/janschill) for more projects.
 Wrap up your post with key takeaways or next steps.
 
 ---
-
-*Found this helpful? Let me know on [Twitter](https://twitter.com/janschill)!*
