@@ -11,4 +11,4 @@ cv: true
 order: 2
 ---
 
-Four months building tools for utility-scale solar developers — the people who scout sites, model layouts, and decide where the next solar farm goes. A short stop on the way to Vipps.
+Four months building tools for utility-scale solar developers: the people who scout sites, model layouts, and decide where the next solar farm goes. A short stop on the way to Vipps.

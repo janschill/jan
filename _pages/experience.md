@@ -10,7 +10,7 @@ A complete archive of professional roles and notable open-source work. The short
 <ul>
 {% for e in entries %}
 <li>
-  <strong>{{ e.role }}</strong> — <a href="{{ e.website }}">{{ e.company }}</a>
+  <strong>{{ e.role }}</strong> at <a href="{{ e.website }}">{{ e.company }}</a>
   ({{ e.start | slice: 0, 4 }}–{% if e.end %}{{ e.end | slice: 0, 4 }}{% else %}present{% endif %}{% if e.location %}, {{ e.location }}{% endif %})
   <div>{{ e.content | markdownify }}</div>
   {% if e.links.size > 0 %}
