@@ -14,8 +14,8 @@ links:
     url: https://www.zendesk.com/service/ticketing-system/customer-data-privacy/
 ---
 
-Co-built bring-your-own-key (BYOK) encryption from the ground up on a six-engineer team — a merger of the Advanced Encryption and Data Protection groups. Customers hold their own key encryption keys; data is encrypted at-rest and in-transit, with fine-grained control over who gets to decrypt what.
+Two years on a six-engineer team — a merger of Advanced Encryption and Data Protection — building bring-your-own-key encryption into Zendesk. Customers hold their own keys; we encrypt their data on the way in and at rest.
 
-The hard part was retrofitting field-level encryption across dozens of backend services — including a large Rails monolith — without compromising the rich features customers depend on. Every search, filter, and analytics path had to keep working. A business unlock for regulated and enterprise customers; a long road of decision records, EnvoyFilter work at the Istio layer, key-rotation design, and gRPC integrations to get there.
+The interesting part wasn't the cryptography. It was the retrofit: field-level encryption across dozens of services and a large Rails monolith, with every existing search, filter, and analytics path expected to keep working. A long road of decision records, EnvoyFilter work at the Istio layer, key-rotation design, and gRPC integrations.
 
-Stepped up as Technical Lead for the merged Data Protection team in the final months. Also acted as Security Champion and Reliability Champion: SLAs, observability, CI pipelines (GitHub Actions, Jenkins), and the Spinnaker deployment automation.
+I led the merged team as Technical Lead in the final months. Through the whole stretch I also held the Security Champion and Reliability Champion roles — SLAs, observability, CI pipelines, and the Spinnaker deployment work.

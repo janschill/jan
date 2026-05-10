@@ -11,4 +11,4 @@ cv: true
 order: 8
 ---
 
-Started as a student developer (HTML/CSS/JS) and grew into a full-stack role building a complex Vue.js single-page application on a Laravel backend. First commercial software job; where I learned to ship.
+My first software job. Started as a student doing HTML, CSS, and small JavaScript bits, and grew into a full-stack role building a complex Vue.js single-page app on a Laravel backend. Where I learned to ship.

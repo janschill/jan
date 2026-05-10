@@ -16,4 +16,4 @@ links:
     url: https://nlnet.nl/
 ---
 
-Won and delivered an EU-funded research grant via [NLnet](https://nlnet.nl/) to integrate [Federated Credential Management](https://www.liquid.surf/2023/10/6/solid-fedcm) — a browser-native identity API — with [Solid](https://solidproject.org), Tim Berners-Lee's decentralized-web project. Two years of self-directed open-source work, plus participation in W3C discussions on privacy-preserving identity federation.
+Two years of part-time open-source work funded by an EU research grant from [NLnet](https://nlnet.nl/). The goal: bring [Federated Credential Management](https://www.liquid.surf/2023/10/6/solid-fedcm) — a new browser-native identity API — to [Solid](https://solidproject.org), Tim Berners-Lee's decentralized-web project. Self-directed, on my own time, with W3C calls on privacy-preserving identity federation along the way.

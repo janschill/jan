@@ -18,4 +18,4 @@ links:
     url: https://github.com/janschill/solid-autocomplete
 ---
 
-Worked directly with CERN and Tim Berners-Lee's [Solid](https://solidproject.org) project on the *CERN-Solid Code Investigation* — a study of how Solid's decentralized-web specifications could integrate into a large enterprise software system. The collaboration sat at the intersection of two notable institutions: CERN, where the web was invented, and the Solid project, the next attempt to fix what the web became. Open-sourced two reusable building blocks for Solid apps along the way: `solid-comment` and `solid-autocomplete`.
+My MSc thesis — a code investigation of how [Solid](https://solidproject.org), the decentralized-web project Tim Berners-Lee started, could fit into a real enterprise system. CERN was the host: the place that gave us the web was lending its codebase to the next attempt at fixing it. Two small open-source modules came out of the work — [solid-comment](https://github.com/janschill/solid-comment) and [solid-autocomplete](https://github.com/janschill/solid-autocomplete) — that any Solid app can drop in.

@@ -14,4 +14,4 @@ links:
     url: https://developer.vippsmobilepay.com/docs/APIs/sales-api/
 ---
 
-Building the Sales API to give accounting partners the sales context they need to do real accounting for tens of thousands of Vipps merchants. A long-standing problem at Vipps; current workflows are heavily manual and expensive for both merchants and the accountants who serve them.
+I'm building the [Sales API](https://developer.vippsmobilepay.com/docs/APIs/sales-api/) — a way to give accounting partners the sales context they need to do real accounting for tens of thousands of merchants. Right now, the work is mostly manual. Vipps has wanted to fix it for years.

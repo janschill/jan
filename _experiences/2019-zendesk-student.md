@@ -11,4 +11,4 @@ cv: false
 order: 7
 ---
 
-Part-time alongside the MSc. First contact with the Ruby Core team that I'd later join full-time — small contributions to Rails upgrades, observability, and infrastructure scripts.
+Two years part-time alongside the MSc. My first contact with the Ruby Core team I'd later join full-time — small contributions to Rails upgrades, observability work, and infrastructure scripts.
