@@ -3,29 +3,37 @@ layout: page
 title: About
 ---
 
-Hi, I'm Jan — a software developer writing here about technology, programming, and life.
+Hi, I'm Jan, a software engineer based in Oslo. I build payment infrastructure at Vipps MobilePay, write here about engineering and life, and ship side projects when I want to scratch an itch.
 
-### Experience
+### Now
 
-**Senior Software Engineer at [Vipps MobilePay](https://vippsmobilepay.com/)** (2025 - Present)<br>
+{% assign current = site.experiences | where: "featured", true | where_exp: "e", "e.end == nil" | sort: "order" %}
+{% for e in current %}
+**{{ e.role }} at [{{ e.company }}]({{ e.website }})** ({{ e.start | slice: 0, 4 }}–present)<br>
+{{ e.content | markdownify }}
+{% if e.links.size > 0 %}<small>{% for link in e.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</small>{% endif %}
+{% endfor %}
 
-**Technical Lead & Senior Software Engineer at [Zendesk](https://www.zendesk.com/)** (2019 - 2025)<br>
-Led data protection engineering teams and architected BYOK encryption solutions. Built CI/CD pipelines, integrated backend services with Ruby/Rails/gRPC, and developed React UIs. Specialized in large-scale Ruby applications serving millions of users.
+### Selected work
 
-**Open Source Developer** (2023 - 2025)<br>
-Worked on [Federated Credential Management + Solid](https://www.liquid.surf/2023/10/6/solid-fedcm) through EU-funded [NLnet](https://nlnet.nl/) grant. Participated in W3C discussions on privacy-preserving identity federation APIs.
+{% assign selected = site.experiences | where: "featured", true | where_exp: "e", "e.end != nil" | sort: "order" %}
+{% for e in selected %}
+**{{ e.role }} — [{{ e.company }}]({{ e.website }})** ({{ e.start | slice: 0, 4 }}–{{ e.end | slice: 0, 4 }})<br>
+{{ e.content | markdownify }}
+{% if e.links.size > 0 %}<small>{% for link in e.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</small>{% endif %}
+{% endfor %}
 
-**MSc Student Researcher at [CERN](https://home.cern/)** (2020 - 2021)<br>
-Investigated Solid protocol integration into CERN's software systems. Developed JavaScript modules: [solid-comment](https://github.com/janschill/solid-comment) and [solid-autocomplete](https://github.com/janschill/solid-autocomplete) for the decentralized web project.
+### Side project
+
+[**Auto-Focus**](https://auto-focus.app) — a macOS app that flips on Do Not Disturb when it sees you've settled into work. Built it because I wanted it to exist. No timers, no manual toggling, no activity data leaves the Mac.
+
+### Earlier
+
+The full archive — including earlier Zendesk roles, the Glint Solar stint, and where I learned to ship — is on the [experience page](/experience).
 
 ### Education
 
-**Master of Science in Computer Science** - IT University of Copenhagen (2019-2021)<br>
-**Bachelor of Science in Media Informatics** - Hochschule Flensburg (2015-2019)
+**MSc Computer Science** — IT University of Copenhagen (2019–2021)<br>
+**BSc Media Informatics** — Hochschule Flensburg (2015–2019)
 
-### Projects
-
-[**Auto-Focus**](https://auto-focus.app) macOS application with Chrome Browser extension<br>
-Build a macOS application that detects *flow* and disable notifications automatically.
-
-Feel free to send me an email at <blog@janschill.de>.
+Email me at <blog@janschill.de>.
