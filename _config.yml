@@ -1,7 +1,8 @@
-site: Jan's Blog
+site: Jan Schill
 url: https://janschill.de
-title: Jan's Blog
-description: My personal blog about technology and life
+title: Jan Schill
+tagline: Jan's Blog
+description: Jan Schill — software engineer in Oslo, writing about engineering, side projects, and life.
 twitter:
   username: janschill
   card: summary
@@ -12,6 +13,11 @@ author:
   avatar:
   email: blog@janschill.de
   url: https://janschill.de
+social:
+  name: Jan Schill
+  links:
+    - https://bsky.app/profile/janschill.bsky.social
+    - https://janschill.de/webid.ttl#me
 permalink: pretty
 
 baseurl: ""

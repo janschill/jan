@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About Jan Schill
 ---
 
 Hi, I'm Jan, a software engineer based in Oslo. I build payment infrastructure at Vipps MobilePay, write here about engineering and life, and ship side projects when I want to scratch an itch.

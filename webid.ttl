@@ -1,0 +1,25 @@
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> .
+@prefix solid:  <http://www.w3.org/ns/solid/terms#> .
+@prefix schema: <http://schema.org/> .
+@prefix pim:    <http://www.w3.org/ns/pim/space#> .
+@prefix :       <#> .
+
+<>
+    a foaf:PersonalProfileDocument ;
+    foaf:maker :me ;
+    foaf:primaryTopic :me .
+
+:me
+    a foaf:Person, schema:Person ;
+    foaf:name "Jan Schill" ;
+    foaf:givenName "Jan" ;
+    foaf:familyName "Schill" ;
+    foaf:title "Software Engineer" ;
+    foaf:based_near [ schema:name "Oslo, Norway" ] ;
+    foaf:mbox <mailto:blog@janschill.de> ;
+    foaf:homepage <https://janschill.de/> ;
+    foaf:weblog <https://janschill.de/> ;
+    foaf:account <https://bsky.app/profile/janschill.bsky.social> ;
+    foaf:account <https://github.com/janschill> ;
+    schema:sameAs <https://bsky.app/profile/janschill.bsky.social> ,
+                  <https://github.com/janschill> .
