@@ -556,9 +556,9 @@ hr {
   }
 }
 
-// Custom cursors (rw-blue-silver set)
+// Custom cursors (Claudio Guglieri pack)
 body {
-  cursor: url('/assets/cursors/pointer.cur'), auto;
+  cursor: url('/assets/cursors-claudio/pointer.svg') 9 6, auto;
 }
 
 p, li, h1, h2, h3, h4, h5, h6,
@@ -566,7 +566,7 @@ blockquote, pre, code, kbd, samp,
 dl, dt, dd, td, th,
 span, time, small, em, strong, b, i,
 input, textarea, select, [contenteditable] {
-  cursor: url('/assets/cursors/beam.cur'), text;
+  cursor: text;
 }
 
 a,
@@ -574,5 +574,5 @@ button,
 [role="button"],
 label[for],
 summary {
-  cursor: url('/assets/cursors/hand.cur'), pointer;
+  cursor: url('/assets/cursors-claudio/point-up-thumb.svg') 24 9, pointer;
 }
