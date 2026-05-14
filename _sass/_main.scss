@@ -555,3 +555,24 @@ hr {
     margin-left: 0;
   }
 }
+
+// Custom cursors (rw-blue-silver set)
+body {
+  cursor: url('/assets/cursors/pointer.cur'), auto;
+}
+
+p, li, h1, h2, h3, h4, h5, h6,
+blockquote, pre, code, kbd, samp,
+dl, dt, dd, td, th,
+span, time, small, em, strong, b, i,
+input, textarea, select, [contenteditable] {
+  cursor: url('/assets/cursors/beam.cur'), text;
+}
+
+a,
+button,
+[role="button"],
+label[for],
+summary {
+  cursor: url('/assets/cursors/hand.cur'), pointer;
+}
