@@ -3,7 +3,7 @@ layout: page
 title: About Jan Schill
 ---
 
-Hi, I'm Jan, a software engineer based in Oslo. I build payment infrastructure at Vipps MobilePay, write here about engineering and life, and ship side projects when I want to scratch an itch.
+Hi, I'm Jan, a software engineer based in Oslo. I lead the merchant onboarding and KYC team at Vipps MobilePay, write here about engineering and life, and ship side projects when I want to scratch an itch.
 
 ### Now
 
@@ -27,9 +27,11 @@ Hi, I'm Jan, a software engineer based in Oslo. I build payment infrastructure a
 
 [**Auto-Focus**](https://auto-focus.app) is a macOS app that flips on Do Not Disturb when it sees you've settled into work. Built it because I wanted it to exist. No timers, no manual toggling, no activity data leaves the Mac.
 
+[**Bundestagsdaten.de**](https://bundestagsdaten.de) a site showing when and who claps in the German Bundestag.
+
 ### Earlier
 
-The full archive (including earlier Zendesk roles, the Glint Solar stint, and where I learned to ship) is on the [experience page](/experience).
+The full archive (including earlier Zendesk roles, the Glint Solar, and where I learned to ship) is on the [experience page](/experience).
 
 ### Education
 

@@ -8,7 +8,7 @@ type: self-employed
 website: https://www.liquid.surf
 featured: true
 cv: true
-order: 4
+order: 5
 links:
   - label: Solid + FedCM write-up
     url: https://www.liquid.surf/2023/10/6/solid-fedcm

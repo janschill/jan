@@ -6,9 +6,9 @@ start: 2020-10
 end: 2021-07
 type: full-time
 website: https://home.cern
-featured: true
+featured: false
 cv: true
-order: 6
+order: 7
 links:
   - label: "Thesis: CERN-Solid Code Investigation"
     url: https://github.com/janschill/cern-solid-code-investigation

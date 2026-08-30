@@ -8,7 +8,7 @@ type: full-time
 website: https://www.zendesk.com
 featured: true
 cv: true
-order: 3
+order: 4
 links:
   - label: Advanced Customer Data Privacy
     url: https://www.zendesk.com/service/ticketing-system/customer-data-privacy/
